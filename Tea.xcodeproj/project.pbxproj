@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D68EF3111C96B3830036BAD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D68EF3101C96B3830036BAD3 /* main.m */; };
+		D68EF3141C96B3830036BAD3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D68EF3131C96B3830036BAD3 /* AppDelegate.m */; };
+		D68EF3171C96B3830036BAD3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D68EF3161C96B3830036BAD3 /* ViewController.m */; };
+		D68EF31A1C96B3830036BAD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D68EF3181C96B3830036BAD3 /* Main.storyboard */; };
+		D68EF31C1C96B3830036BAD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D68EF31B1C96B3830036BAD3 /* Assets.xcassets */; };
+		D68EF31F1C96B3830036BAD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D68EF31D1C96B3830036BAD3 /* LaunchScreen.storyboard */; };
+		D68EF32A1C96B3830036BAD3 /* TeaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D68EF3291C96B3830036BAD3 /* TeaTests.m */; };
+		D68EF3351C96B3830036BAD3 /* TeaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D68EF3341C96B3830036BAD3 /* TeaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D68EF3261C96B3830036BAD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D68EF3041C96B3830036BAD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D68EF30B1C96B3830036BAD3;
+			remoteInfo = Tea;
+		};
+		D68EF3311C96B3830036BAD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D68EF3041C96B3830036BAD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D68EF30B1C96B3830036BAD3;
+			remoteInfo = Tea;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D68EF30C1C96B3830036BAD3 /* Tea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tea.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D68EF3101C96B3830036BAD3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D68EF3121C96B3830036BAD3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D68EF3131C96B3830036BAD3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D68EF3151C96B3830036BAD3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D68EF3161C96B3830036BAD3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D68EF3191C96B3830036BAD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D68EF31B1C96B3830036BAD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D68EF31E1C96B3830036BAD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D68EF3201C96B3830036BAD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D68EF3251C96B3830036BAD3 /* TeaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D68EF3291C96B3830036BAD3 /* TeaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeaTests.m; sourceTree = "<group>"; };
+		D68EF32B1C96B3830036BAD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D68EF3301C96B3830036BAD3 /* TeaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D68EF3341C96B3830036BAD3 /* TeaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeaUITests.m; sourceTree = "<group>"; };
+		D68EF3361C96B3830036BAD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D68EF3091C96B3830036BAD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68EF3221C96B3830036BAD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68EF32D1C96B3830036BAD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D68EF3031C96B3830036BAD3 = {
+			isa = PBXGroup;
+			children = (
+				D68EF30D1C96B3830036BAD3 /* Products */,
+				D68EF30E1C96B3830036BAD3 /* Tea */,
+				D68EF3281C96B3830036BAD3 /* TeaTests */,
+				D68EF3331C96B3830036BAD3 /* TeaUITests */,
+			);
+			sourceTree = "<group>";
+		};
+		D68EF30D1C96B3830036BAD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D68EF30C1C96B3830036BAD3 /* Tea.app */,
+				D68EF3251C96B3830036BAD3 /* TeaTests.xctest */,
+				D68EF3301C96B3830036BAD3 /* TeaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D68EF30E1C96B3830036BAD3 /* Tea */ = {
+			isa = PBXGroup;
+			children = (
+				D68EF30F1C96B3830036BAD3 /* Supporting Files */,
+				D68EF3121C96B3830036BAD3 /* AppDelegate.h */,
+				D68EF3131C96B3830036BAD3 /* AppDelegate.m */,
+				D68EF31B1C96B3830036BAD3 /* Assets.xcassets */,
+				D68EF3201C96B3830036BAD3 /* Info.plist */,
+				D68EF31D1C96B3830036BAD3 /* LaunchScreen.storyboard */,
+				D68EF3181C96B3830036BAD3 /* Main.storyboard */,
+				D68EF3151C96B3830036BAD3 /* ViewController.h */,
+				D68EF3161C96B3830036BAD3 /* ViewController.m */,
+			);
+			path = Tea;
+			sourceTree = "<group>";
+		};
+		D68EF30F1C96B3830036BAD3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D68EF3101C96B3830036BAD3 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D68EF3281C96B3830036BAD3 /* TeaTests */ = {
+			isa = PBXGroup;
+			children = (
+				D68EF32B1C96B3830036BAD3 /* Info.plist */,
+				D68EF3291C96B3830036BAD3 /* TeaTests.m */,
+			);
+			path = TeaTests;
+			sourceTree = "<group>";
+		};
+		D68EF3331C96B3830036BAD3 /* TeaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D68EF3361C96B3830036BAD3 /* Info.plist */,
+				D68EF3341C96B3830036BAD3 /* TeaUITests.m */,
+			);
+			path = TeaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D68EF30B1C96B3830036BAD3 /* Tea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D68EF3391C96B3830036BAD3 /* Build configuration list for PBXNativeTarget "Tea" */;
+			buildPhases = (
+				D68EF3081C96B3830036BAD3 /* Sources */,
+				D68EF3091C96B3830036BAD3 /* Frameworks */,
+				D68EF30A1C96B3830036BAD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tea;
+			productName = Tea;
+			productReference = D68EF30C1C96B3830036BAD3 /* Tea.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D68EF3241C96B3830036BAD3 /* TeaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D68EF33C1C96B3830036BAD3 /* Build configuration list for PBXNativeTarget "TeaTests" */;
+			buildPhases = (
+				D68EF3211C96B3830036BAD3 /* Sources */,
+				D68EF3221C96B3830036BAD3 /* Frameworks */,
+				D68EF3231C96B3830036BAD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D68EF3271C96B3830036BAD3 /* PBXTargetDependency */,
+			);
+			name = TeaTests;
+			productName = TeaTests;
+			productReference = D68EF3251C96B3830036BAD3 /* TeaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D68EF32F1C96B3830036BAD3 /* TeaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D68EF33F1C96B3830036BAD3 /* Build configuration list for PBXNativeTarget "TeaUITests" */;
+			buildPhases = (
+				D68EF32C1C96B3830036BAD3 /* Sources */,
+				D68EF32D1C96B3830036BAD3 /* Frameworks */,
+				D68EF32E1C96B3830036BAD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D68EF3321C96B3830036BAD3 /* PBXTargetDependency */,
+			);
+			name = TeaUITests;
+			productName = TeaUITests;
+			productReference = D68EF3301C96B3830036BAD3 /* TeaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D68EF3041C96B3830036BAD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = dinglin;
+				TargetAttributes = {
+					D68EF30B1C96B3830036BAD3 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					D68EF3241C96B3830036BAD3 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = D68EF30B1C96B3830036BAD3;
+					};
+					D68EF32F1C96B3830036BAD3 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = D68EF30B1C96B3830036BAD3;
+					};
+				};
+			};
+			buildConfigurationList = D68EF3071C96B3830036BAD3 /* Build configuration list for PBXProject "Tea" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D68EF3031C96B3830036BAD3;
+			productRefGroup = D68EF30D1C96B3830036BAD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D68EF30B1C96B3830036BAD3 /* Tea */,
+				D68EF3241C96B3830036BAD3 /* TeaTests */,
+				D68EF32F1C96B3830036BAD3 /* TeaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D68EF30A1C96B3830036BAD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D68EF31F1C96B3830036BAD3 /* LaunchScreen.storyboard in Resources */,
+				D68EF31C1C96B3830036BAD3 /* Assets.xcassets in Resources */,
+				D68EF31A1C96B3830036BAD3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68EF3231C96B3830036BAD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68EF32E1C96B3830036BAD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D68EF3081C96B3830036BAD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D68EF3171C96B3830036BAD3 /* ViewController.m in Sources */,
+				D68EF3141C96B3830036BAD3 /* AppDelegate.m in Sources */,
+				D68EF3111C96B3830036BAD3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68EF3211C96B3830036BAD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D68EF32A1C96B3830036BAD3 /* TeaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68EF32C1C96B3830036BAD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D68EF3351C96B3830036BAD3 /* TeaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D68EF3271C96B3830036BAD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D68EF30B1C96B3830036BAD3 /* Tea */;
+			targetProxy = D68EF3261C96B3830036BAD3 /* PBXContainerItemProxy */;
+		};
+		D68EF3321C96B3830036BAD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D68EF30B1C96B3830036BAD3 /* Tea */;
+			targetProxy = D68EF3311C96B3830036BAD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D68EF3181C96B3830036BAD3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D68EF3191C96B3830036BAD3 /* Base */,
+			);
+			name = Main.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+		D68EF31D1C96B3830036BAD3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D68EF31E1C96B3830036BAD3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D68EF3371C96B3830036BAD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D68EF3381C96B3830036BAD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D68EF33A1C96B3830036BAD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tea/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HangZhou.Tea;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D68EF33B1C96B3830036BAD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tea/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HangZhou.Tea;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D68EF33D1C96B3830036BAD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TeaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HangZhou.TeaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tea.app/Tea";
+			};
+			name = Debug;
+		};
+		D68EF33E1C96B3830036BAD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TeaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HangZhou.TeaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tea.app/Tea";
+			};
+			name = Release;
+		};
+		D68EF3401C96B3830036BAD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TeaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HangZhou.TeaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Tea;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D68EF3411C96B3830036BAD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TeaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HangZhou.TeaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Tea;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D68EF3071C96B3830036BAD3 /* Build configuration list for PBXProject "Tea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D68EF3371C96B3830036BAD3 /* Debug */,
+				D68EF3381C96B3830036BAD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D68EF3391C96B3830036BAD3 /* Build configuration list for PBXNativeTarget "Tea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D68EF33A1C96B3830036BAD3 /* Debug */,
+				D68EF33B1C96B3830036BAD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D68EF33C1C96B3830036BAD3 /* Build configuration list for PBXNativeTarget "TeaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D68EF33D1C96B3830036BAD3 /* Debug */,
+				D68EF33E1C96B3830036BAD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D68EF33F1C96B3830036BAD3 /* Build configuration list for PBXNativeTarget "TeaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D68EF3401C96B3830036BAD3 /* Debug */,
+				D68EF3411C96B3830036BAD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D68EF3041C96B3830036BAD3 /* Project object */;
+}
